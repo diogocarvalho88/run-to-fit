@@ -1,0 +1,16 @@
+{
+  "name": "run-to-fit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Convert Portuguese and English running workouts to Garmin FIT workout files, privately in your browser.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/build.mjs && node --test tests/*.test.mjs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jsdom": "^30.1.2",
+    "@garmin/fitsdk": "21.217.0"
+  }
+}
